@@ -1,0 +1,37 @@
+FROM 5003/builder:scm
+RUN apk add --no-cache --virtual .builder \
+                                 autoconf \
+                                 automake \
+                                 bzip2 \
+                                 file \
+                                 g++ \
+                                 gcc \
+                                 imagemagick \
+                                 bzip2-dev \
+                                 libc-dev \
+                                 linux-headers \
+                                 curl-dev \
+                                 db-dev \
+                                 libevent-dev \
+                                 libffi-dev \
+                                 geoip-dev \
+                                 glib-dev \
+                                 jpeg-dev \
+                                 xz-dev \
+                                 imagemagick-dev \
+                                 mariadb-dev \
+                                 ncurses-dev \
+                                 libpng-dev \
+                                 postgresql-dev \
+                                 readline-dev \
+                                 sqlite-dev \
+                                 openssl-dev \
+                                 libtool \
+                                 libwebp-dev \
+                                 libxml2-dev \
+                                 libxslt-dev \
+                                 yaml-dev \
+                                 make \
+                                 patch \
+                                 xz \
+                                 zlib-dev
