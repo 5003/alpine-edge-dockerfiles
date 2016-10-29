@@ -14,9 +14,11 @@ RUN apk add --no-cache --virtual .builder \
                                  db-dev \
                                  libevent-dev \
                                  libffi-dev \
+                                 gdbm-dev \
                                  geoip-dev \
                                  glib-dev \
                                  jpeg-dev \
+                                 krb5-dev \
                                  xz-dev \
                                  imagemagick-dev \
                                  mariadb-dev \
