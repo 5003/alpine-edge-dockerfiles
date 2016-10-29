@@ -25,7 +25,7 @@ RUN apk add --no-cache --virtual .builder \
                                  postgresql-dev \
                                  readline-dev \
                                  sqlite-dev \
-                                 openssl-dev \
+                                 libressl-dev \
                                  libtool \
                                  libwebp-dev \
                                  libxml2-dev \
